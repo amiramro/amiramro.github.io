@@ -1,6 +1,6 @@
   
 body {
-	background-color: #ffcccc;
+	background-color: #b2f5ea;
 }
 
 #heading{
@@ -9,4 +9,13 @@ body {
 
 #skills{
  	text-align: center;
+}
+
+#skills{
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
 }
