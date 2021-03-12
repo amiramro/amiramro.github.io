@@ -11,6 +11,11 @@ body {
  	text-align: center;
 }
 
+#wrapper {
+  background-color: green; /* for visualization purposes */
+  text-align: center;
+}
+
 .huji-link {
 	/* width: 100px;
 	height: 100px;	
