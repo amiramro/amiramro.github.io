@@ -11,11 +11,11 @@ body {
  	text-align: center;
 }
 
-#skills{
+#link-container {
   text-align: center;
 }
-
-a, a:link, a:visited {
-  text-decoration: none;
-  text-align: center;
+#link {
+  color: black;
+  display: inline-block;
+  padding: 10px;
 }
