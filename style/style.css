@@ -12,19 +12,10 @@ body {
 }
 
 #wrapper {
-  background-color: green; /* for visualization purposes */
   text-align: center;
 }
 
 .huji-link {
-	/* width: 100px;
-	height: 100px;	
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0; */
-  background-color: red;
 	display: inline-block;
-  /* text-align: center; */
+
 }
