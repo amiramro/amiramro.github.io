@@ -7,10 +7,6 @@ body {
  	text-align: center;
 }
 
-#skills{
- 	text-align: center;
-}
-
 #wrapper {
   text-align: center;
 }
@@ -27,6 +23,21 @@ body {
   float:left;
 }
 .row:after {
+  content: '';
+  display: block;
+  clear:both;
+}
+
+.bio {
+  width:100%;
+}
+.bio-section {
+  width:50%;
+  float:left;
+}
+.bio:after {
+  content: '';
+  display: block;
   clear:both;
 }
 
@@ -34,7 +45,12 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
+  height: auto;
+}
+
+p { 
+  margin: 10px; 
 }
 
 /* unvisited link */
@@ -48,3 +64,16 @@ a:hover {
   color: #1A5276;
   text-decoration: none;
 }
+
+/* .center:hover{
+  color: #424242; 
+-webkit-transition: all .3s ease-in;
+-moz-transition: all .3s ease-in;
+-ms-transition: all .3s ease-in;
+-o-transition: all .3s ease-in;
+transition: all .3s ease-in;
+opacity: 1;
+transform: scale(2,2);
+-ms-transform: scale(5,5); /* IE 9 */
+/* -webkit-transform: scale(2,2); /* Safari and Chrome */
+/* } */
