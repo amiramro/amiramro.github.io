@@ -17,5 +17,22 @@ body {
 
 .huji-link {
 	display: inline-block;
+}
 
+.row {
+  width:100%;
+}
+.column {
+  width:33.33%;
+  float:left;
+}
+.row:after {
+  clear:both;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
