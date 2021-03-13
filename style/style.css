@@ -36,3 +36,15 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+/* unvisited link */
+a:link, a:visited, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+  text-decoration: none;
+}
