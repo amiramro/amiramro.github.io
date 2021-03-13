@@ -1,6 +1,6 @@
   
 body {
-	background-color: #b2f5ea;
+	background-color: #AED6F1;
 }
 
 #heading{
@@ -45,6 +45,6 @@ a:link, a:visited, a:active {
 
 /* mouse over link */
 a:hover {
-  color: red;
+  color: #1A5276;
   text-decoration: none;
 }
